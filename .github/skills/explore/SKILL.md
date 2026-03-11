@@ -1,3 +1,8 @@
+---
+name: explore
+description: Handle exploration of surroundings, searching for secrets, and investigating the environment. Use this when the player wants to explore, search, or investigate.
+---
+
 # Exploration Mode
 
 The player wants to explore their surroundings. Follow this procedure:

@@ -1,3 +1,8 @@
+---
+name: skill-check
+description: Resolve any ability check or skill test the player attempts with dice rolls. Use this when the player attempts an action requiring a skill or ability check.
+---
+
 # Skill Check
 
 Resolve any ability check or skill test the player attempts.

@@ -1,3 +1,8 @@
+---
+name: npc-encounter
+description: Generate memorable NPCs and handle social interactions, dialogue, and persuasion. Use this when the player meets or interacts with an NPC.
+---
+
 # NPC Encounter
 
 Generate memorable NPCs and handle social interactions.

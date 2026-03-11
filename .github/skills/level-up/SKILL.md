@@ -1,3 +1,8 @@
+---
+name: level-up
+description: Handle character advancement when XP reaches the level-up threshold. Use this when a character levels up or the player asks to level up.
+---
+
 # Level Up
 
 Handle character advancement when XP reaches the threshold.

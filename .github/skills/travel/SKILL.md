@@ -1,3 +1,8 @@
+---
+name: travel
+description: Handle journeys between locations with travel events, random encounters, and world-building. Use this when the player wants to travel or journey to a new location.
+---
+
 # Overworld Travel
 
 Handle journeys between locations with travel events, random encounters, and world-building.

@@ -1,3 +1,8 @@
+---
+name: loot
+description: Generate treasure, magical items, and loot drops for combat, treasure hoards, and hidden caches. Use this when generating loot or the player searches for treasure.
+---
+
 # Loot & Treasure Generation
 
 Generate appropriate loot for combat drops, treasure hoards, and hidden caches.

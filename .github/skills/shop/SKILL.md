@@ -1,3 +1,8 @@
+---
+name: shop
+description: Handle buying, selling, and trading at merchants and shops. Use this when the player wants to visit a shop or trade items.
+---
+
 # Shop & Trading
 
 Handle all buying, selling, and trading interactions.

@@ -1,3 +1,8 @@
+---
+name: combat
+description: Handle tactical combat encounters with initiative, attacks, saving throws, and dice rolls. Use this when the player wants to fight enemies or resolve combat.
+---
+
 # Combat Encounter
 
 Handle tactical combat following these rules precisely. **Every attack, save, and effect requires a dice roll.**

@@ -1,3 +1,8 @@
+---
+name: rest
+description: Handle short rests, long rests, and camping to recover HP, spell slots, and abilities. Use this when the player wants to rest or camp.
+---
+
 # Rest & Recovery
 
 Handle short rests, long rests, and camping.

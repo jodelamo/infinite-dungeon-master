@@ -1,3 +1,8 @@
+---
+name: magic
+description: Handle spellcasting, ritual magic, magical item use, and wild magic events. Use this when the player wants to cast a spell or use magic.
+---
+
 # Magic & Spellcasting
 
 Handle all magical actions — spellcasting, ritual magic, magical item use, and wild magic events.

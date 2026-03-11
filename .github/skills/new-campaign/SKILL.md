@@ -1,3 +1,8 @@
+---
+name: new-campaign
+description: Generate a new campaign world with setting, factions, locations, and a starting quest. Use this when the player wants to start a new campaign or generate a world.
+---
+
 # New Campaign — World Generation
 
 You are creating a **brand new campaign world** for Infinite RPG. Follow these steps:
