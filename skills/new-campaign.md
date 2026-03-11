@@ -1,13 +1,3 @@
----
-mode: agent
-description: "Start a new campaign — generate a world, setting, factions, and starting location"
-tools:
-  - create
-  - edit
-  - view
-  - bash
----
-
 # New Campaign — World Generation
 
 You are creating a **brand new campaign world** for Infinite RPG. Follow these steps:

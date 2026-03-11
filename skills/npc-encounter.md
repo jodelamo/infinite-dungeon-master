@@ -1,12 +1,3 @@
----
-mode: agent
-description: "Generate and interact with NPCs — dialogue, trade, quests, social encounters"
-tools:
-  - view
-  - edit
-  - bash
----
-
 # NPC Encounter
 
 Generate memorable NPCs and handle social interactions.

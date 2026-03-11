@@ -1,12 +1,3 @@
----
-mode: agent
-description: "Visit a shop — buy, sell, and trade equipment, potions, and magical items"
-tools:
-  - view
-  - edit
-  - bash
----
-
 # Shop & Trading
 
 Handle all buying, selling, and trading interactions.

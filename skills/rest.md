@@ -1,12 +1,3 @@
----
-mode: agent
-description: "Take a short or long rest — recover HP, spell slots, and abilities"
-tools:
-  - view
-  - edit
-  - bash
----
-
 # Rest & Recovery
 
 Handle short rests, long rests, and camping.

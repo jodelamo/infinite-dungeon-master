@@ -1,12 +1,3 @@
----
-mode: agent
-description: "Initiate or continue combat — roll initiative, attack, defend, use abilities"
-tools:
-  - view
-  - edit
-  - bash
----
-
 # Combat Encounter
 
 Handle tactical combat following these rules precisely. **Every attack, save, and effect requires a dice roll.**

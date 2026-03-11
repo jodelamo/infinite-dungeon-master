@@ -1,12 +1,3 @@
----
-mode: agent
-description: "Explore the current area — discover secrets, search for clues, interact with the environment"
-tools:
-  - view
-  - edit
-  - bash
----
-
 # Exploration Mode
 
 The player wants to explore their surroundings. Follow this procedure:

@@ -1,12 +1,3 @@
----
-mode: agent
-description: "Travel across the world — journey between locations with random encounters and events"
-tools:
-  - view
-  - edit
-  - bash
----
-
 # Overworld Travel
 
 Handle journeys between locations with travel events, random encounters, and world-building.

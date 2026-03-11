@@ -1,12 +1,3 @@
----
-mode: agent
-description: "Cast a spell or use magical abilities"
-tools:
-  - view
-  - edit
-  - bash
----
-
 # Magic & Spellcasting
 
 Handle all magical actions — spellcasting, ritual magic, magical item use, and wild magic events.

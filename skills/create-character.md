@@ -1,13 +1,3 @@
----
-mode: agent
-description: "Create a new character — choose race, class, attributes, skills, and backstory"
-tools:
-  - create
-  - edit
-  - view
-  - bash
----
-
 # Character Creation Wizard
 
 Guide the player through creating a new character step by step. **Roll dice where indicated.** Always show rolls.

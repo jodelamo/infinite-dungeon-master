@@ -1,12 +1,3 @@
----
-mode: agent
-description: "Generate loot and treasure — item drops, treasure hoards, magical items"
-tools:
-  - view
-  - edit
-  - bash
----
-
 # Loot & Treasure Generation
 
 Generate appropriate loot for combat drops, treasure hoards, and hidden caches.

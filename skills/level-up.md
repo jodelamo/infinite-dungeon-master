@@ -1,12 +1,3 @@
----
-mode: agent
-description: "Level up your character — increase stats, gain new abilities, allocate skill points"
-tools:
-  - view
-  - edit
-  - bash
----
-
 # Level Up
 
 Handle character advancement when XP reaches the threshold.

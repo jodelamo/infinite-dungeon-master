@@ -1,12 +1,3 @@
----
-mode: agent
-description: "Make a skill check — roll for any ability or skill test"
-tools:
-  - view
-  - edit
-  - bash
----
-
 # Skill Check
 
 Resolve any ability check or skill test the player attempts.
