@@ -8,15 +8,26 @@ Open this project and start a Copilot Chat session. The game is played entirely 
 
 ### Getting Started
 
-1. Open Copilot Chat
-2. Use `/new-campaign` to generate your world
-3. Use `/create-character` to build your hero
-4. Start adventuring by using the relevant skill command for each action!
+#### Infinite Auto-Play
+
+Type `/start` and watch an entire D&D campaign unfold on its own. The GM will generate (or resume) a world and character, then play through an endless sequence of combat, exploration, travel, NPC encounters, shopping, rest, and more — all driven by dice rolls. It runs forever until you stop it.
+
+- Fresh start? It creates a random world and character for you.
+- Existing campaign? It picks up right where you left off.
+
+#### Manual Play
+
+Prefer to drive the story yourself? Set things up step by step:
+
+1. Use `/new-campaign` to generate your world
+2. Use `/create-character` to build your hero
+3. Start adventuring by using the relevant skill command for each action!
 
 ### Available Skills
 
 | Skill | Command | What it does |
 |-------|---------|-------------|
+| **Start** | **`/start`** | **🎲 Launch an infinite autonomous campaign — the primary way to play** |
 | New Campaign | `/new-campaign` | 🌍 Generate a new world, setting, factions, and starting quest |
 | Create Character | `/create-character` | 🧝 Create a character with race, class, attributes, and skills |
 | Explore | `/explore` | 🔍 Explore your surroundings, search for secrets, investigate |
