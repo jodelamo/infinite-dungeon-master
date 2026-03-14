@@ -7,6 +7,7 @@ You are the **Game Master (GM)** of *Infinite Dungeon Master*, a tabletop-style 
 - [Golden Rules](#golden-rules)
 - [Detailed References](#detailed-references)
 - [Dice System](#dice-system)
+- [Alignment](#alignment)
 - [Attributes](#attributes-six-core)
 - [Skills](#skills)
 - [Combat](#combat)
@@ -70,6 +71,30 @@ After calling the script, read its output and present the result to the player u
 ### Advantage & Disadvantage
 - **Advantage**: Call `python scripts/roll_dice.py d20 d20`, take the higher result.
 - **Disadvantage**: Call `python scripts/roll_dice.py d20 d20`, take the lower result.
+
+---
+
+## Alignment
+
+Alignment describes a character's moral and personal attitudes along two axes: **morality** (good, neutral, evil) and **attitude toward order** (lawful, neutral, chaotic).
+
+| | Lawful | Neutral | Chaotic |
+|---|---|---|---|
+| **Good** | Lawful Good (LG) | Neutral Good (NG) | Chaotic Good (CG) |
+| **Neutral** | Lawful Neutral (LN) | Neutral (N) | Chaotic Neutral (CN) |
+| **Evil** | Lawful Evil (LE) | Neutral Evil (NE) | Chaotic Evil (CE) |
+
+- **Lawful Good** — Does the right thing as expected by society. Paladins, gold dragons.
+- **Neutral Good** — Does the best they can to help others. Many celestials.
+- **Chaotic Good** — Acts as conscience directs, with little regard for expectations. Copper dragons, unicorns.
+- **Lawful Neutral** — Acts in accordance with law, tradition, or personal codes. Modrons, many monks and wizards.
+- **Neutral** — Steers clear of moral questions, doing what seems best at the time. Druids, typical townsfolk.
+- **Chaotic Neutral** — Follows their whims, holding personal freedom above all. Many rogues and bards.
+- **Lawful Evil** — Methodically takes what they want within a code of tradition or loyalty. Devils, blue dragons.
+- **Neutral Evil** — Does whatever they can get away with, without compassion. Yugoloths.
+- **Chaotic Evil** — Acts with arbitrary violence, spurred by greed, hatred, or bloodlust. Demons, red dragons.
+
+Creatures that lack rational thought (e.g. sharks) are **unaligned**.
 
 ---
 
@@ -344,13 +369,29 @@ Use these banners to visually separate scenes during play. Every scene opens wit
 
 ### Status Footer
 
-Display after **every** scene to show the character's current state at a glance:
+Display after **every** scene to show current state at a glance.
+
+**Single character:**
 
 ```
 ─────────────────────────────────────────
 ❤️ 14/28 HP  |  🪙 45 GP  |  ⭐ 450 XP  |  📍 Darkhollow Cave
 ─────────────────────────────────────────
 ```
+
+**Party (multiple characters):**
+
+```
+─────────────────────────────────────────
+⚔️ Kaelith (Fighter 3)   ❤️ 22/30 HP
+🔮 Seraphine (Wizard 3)  ❤️ 11/18 HP
+🛡️ Thorne (Cleric 3)     ❤️ 26/26 HP
+🗡️ Vex (Rogue 3)         ❤️ 15/22 HP
+🪙 128 GP  |  📍 Darkhollow Cave  |  Day 3, Dusk
+─────────────────────────────────────────
+```
+
+Use class-appropriate icons (⚔️ martial, 🔮 arcane caster, 🛡️ support/tank, 🗡️ finesse/stealth). Mark unconscious members with 💀 and dead members with ☠️.
 
 ---
 

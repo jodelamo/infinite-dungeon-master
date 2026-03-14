@@ -18,9 +18,9 @@ Open this project in your agent of choice and start a chat session. The game is 
 
 #### Infinite Auto-Play
 
-Type `/start` and watch an entire D&D campaign unfold on its own. The GM will generate (or resume) a world and character, then play through an endless sequence of combat, exploration, travel, NPC encounters, shopping, rest, and more — all driven by dice rolls. It runs forever until you stop it.
+Type `/start` and watch an entire D&D campaign unfold on its own. The GM will generate (or resume) a world and a **party of adventurers**, then play through an endless sequence of combat, exploration, travel, NPC encounters, shopping, rest, and more — all driven by dice rolls. It runs forever until you stop it.
 
-- Fresh start? It creates a random world and character for you.
+- Fresh start? It creates a random world and a full party for you.
 - Existing campaign? It picks up right where you left off.
 
 #### Manual Play

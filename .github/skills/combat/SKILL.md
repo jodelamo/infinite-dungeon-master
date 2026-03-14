@@ -24,20 +24,20 @@ Handle tactical combat following these rules precisely. **Every attack, save, an
 Copy this checklist and mark each step complete as you go:
 
 ```
-- [ ] 1. Load character & campaign state
+- [ ] 1. Load party & campaign state
 - [ ] 2. Generate encounter (if new combat)
-- [ ] 3. Roll initiative for all combatants
-- [ ] 4. Run combat rounds (player turns → enemy turns, repeat)
+- [ ] 3. Roll initiative for all combatants (all party members + all enemies)
+- [ ] 4. Run combat rounds (party turns → enemy turns, repeat)
 - [ ] 5. Track conditions each turn
 - [ ] 6. Handle death & dying (if any creature hits 0 HP)
 - [ ] 7. End combat (tally XP, loot, healing check, narrative)
-- [ ] 8. Update state files (HP, XP, items, spell slots, level-up check)
+- [ ] 8. Update state files (HP, XP, items, spell slots, level-up check for each party member)
 ```
 
 ## 1. Load State
 
-Read the active character and campaign files. Determine:
-- Character's combat stats (HP, AC, attack bonuses, weapons, spells)
+Read the active party and campaign files. Determine:
+- Each party member's combat stats (HP, AC, attack bonuses, weapons, spells)
 - Current enemies (or generate new ones — see encounter generation below)
 - Environment and terrain features
 
@@ -55,6 +55,7 @@ Roll d100 for encounter difficulty:
 ### Generate Enemies
 For each enemy, create:
 - Name, race/type, brief description
+- Alignment (for intelligent creatures — influences whether they surrender, negotiate, or fight to the death)
 - HP (roll hit dice), AC, attack bonus, damage
 - 1–2 special abilities appropriate to the creature type
 - XP reward based on CR
@@ -65,21 +66,23 @@ Present enemies dramatically: *"From the shadows emerge..."*
 
 All combatants roll initiative: `🎲 d20 + DEX modifier`
 
-Display the initiative order as a clear list:
+Display the initiative order as a clear list (all party members and all enemies):
 ```
 ⚔️ Initiative Order:
 1. Goblin Archer — 18
-2. [Player Character] — 15
-3. Goblin Warrior — 12
-4. Goblin Shaman — 8
+2. Kaelith (Fighter) — 15
+3. Seraphine (Wizard) — 14
+4. Goblin Warrior — 12
+5. Thorne (Cleric) — 10
+6. Goblin Shaman — 8
 ```
 
 ## 4. Combat Rounds
 
 Each round, cycle through the initiative order. For each turn:
 
-### Player's Turn
-Present the tactical situation and offer options:
+### Party Member Turns
+On each party member's turn, present the tactical situation and choose their action (see the **start** skill's "Autonomous Character Decisions" for how to decide during auto-play, or ask the player during manual play):
 - **Attack** (melee or ranged)
 - **Cast a spell** (if caster)
 - **Use an item** (potion, scroll, etc.)
@@ -100,9 +103,10 @@ Present the tactical situation and offer options:
 ### Enemy Turns
 The GM controls all enemies. For each:
 1. Describe their action narratively
-2. Roll attack: `🎲 d20 + enemy ATK` vs player's AC
-3. On hit, roll damage and update player HP
+2. Roll attack: `🎲 d20 + enemy ATK` vs target party member's AC
+3. On hit, roll damage and update that character's HP
 4. Use enemy special abilities when tactically appropriate (not just to punish)
+5. Enemies should use basic targeting logic — attack the closest threat, focus on low-AC targets, or prioritize healers
 
 ### Saving Throws
 When a spell or effect requires a save:
@@ -132,9 +136,9 @@ Any damage while at 0 HP = automatic death save failure. Massive damage (remaini
 
 When all enemies are defeated or combat ends:
 
-1. **Tally XP**: Sum enemy XP values, divide among party members
+1. **Tally XP**: Sum enemy XP values, divide equally among surviving party members
 2. **Loot**: Roll for enemy drops (use the **loot** skill or quick table below)
-3. **Healing check**: Remind player of current HP and available healing
+3. **Healing check**: Show every party member's current HP and note available healing options
 4. **Narrative**: Describe the aftermath — the silence after battle, the scene
 
 ### Quick Loot (d6 per enemy)
@@ -149,7 +153,7 @@ Use item icons per RULES.md § "Display Formatting — Icons & Items":
 ## 8. Update State
 
 After combat:
-- Update character HP, spell slots used, items consumed
-- Add XP to character file. **Check if level-up threshold is reached!**
+- Update **every** party member's HP, spell slots used, items consumed
+- Add XP to each character file. **Check if any member reached the level-up threshold!**
 - Update campaign file with combat results, enemy status
 - If a character leveled up, prompt the player to use the **level-up** skill

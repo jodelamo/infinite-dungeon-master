@@ -13,13 +13,14 @@ Guide the player through creating a new character step by step. **Roll dice wher
 - [Step 1: Name & Concept](#step-1-name--concept)
 - [Step 2: Choose Race](#step-2-choose-race)
 - [Step 3: Choose Class](#step-3-choose-class)
-- [Step 4: Roll Attributes](#step-4-roll-attributes)
-- [Step 5: Calculate Derived Stats](#step-5-calculate-derived-stats)
-- [Step 6: Choose Skill Proficiencies](#step-6-choose-skill-proficiencies)
-- [Step 7: Starting Equipment & Gold](#step-7-starting-equipment--gold)
-- [Step 8: Spells](#step-8-spells-if-spellcaster)
-- [Step 9: Backstory](#step-9-backstory)
-- [Step 10: Save Character](#step-10-save-character)
+- [Step 4: Choose Alignment](#step-4-choose-alignment)
+- [Step 5: Roll Attributes](#step-5-roll-attributes)
+- [Step 6: Calculate Derived Stats](#step-6-calculate-derived-stats)
+- [Step 7: Choose Skill Proficiencies](#step-7-choose-skill-proficiencies)
+- [Step 8: Starting Equipment & Gold](#step-8-starting-equipment--gold)
+- [Step 9: Spells](#step-9-spells-if-spellcaster)
+- [Step 10: Backstory](#step-10-backstory)
+- [Step 11: Save Character](#step-11-save-character)
 
 ## Workflow Checklist
 
@@ -29,13 +30,14 @@ Copy this checklist and mark each step complete as you go:
 - [ ] 1. Name & concept
 - [ ] 2. Choose race (+ subrace if applicable)
 - [ ] 3. Choose class
-- [ ] 4. Roll attributes (4d6 drop lowest × 6, assign, apply racial bonuses)
-- [ ] 5. Calculate derived stats (HP, AC, initiative, proficiency)
-- [ ] 6. Choose skill proficiencies (class + background)
-- [ ] 7. Starting equipment & gold
-- [ ] 8. Spells (if spellcaster)
-- [ ] 9. Backstory
-- [ ] 10. Save character file & present character sheet
+- [ ] 4. Choose alignment
+- [ ] 5. Roll attributes (4d6 drop lowest × 6, assign, apply racial bonuses)
+- [ ] 6. Calculate derived stats (HP, AC, initiative, proficiency)
+- [ ] 7. Choose skill proficiencies (class + background)
+- [ ] 8. Starting equipment & gold
+- [ ] 9. Spells (if spellcaster)
+- [ ] 10. Backstory (should reflect alignment)
+- [ ] 11. Save character file & present character sheet
 ```
 
 ## Step 1: Name & Concept
@@ -79,7 +81,25 @@ Present the classes with a one-line pitch:
 - **Warlock** — Pact-bound caster. Eldritch power from a patron.
 - **Wizard** — Arcane scholar. Largest spell list, spellbook mastery.
 
-## Step 4: Roll Attributes
+## Step 4: Choose Alignment
+
+Present the 9 alignments from RULES.md § Alignment:
+
+| Alignment | Description |
+|-----------|-------------|
+| **Lawful Good** (LG) | Does the right thing as expected by society |
+| **Neutral Good** (NG) | Does the best they can to help others |
+| **Chaotic Good** (CG) | Acts as conscience directs, regardless of expectations |
+| **Lawful Neutral** (LN) | Acts in accordance with law, tradition, or personal codes |
+| **Neutral** (N) | Steers clear of moral questions, does what seems best |
+| **Chaotic Neutral** (CN) | Follows their whims, personal freedom above all |
+| **Lawful Evil** (LE) | Methodically takes what they want within a code |
+| **Neutral Evil** (NE) | Does whatever they can get away with |
+| **Chaotic Evil** (CE) | Acts with arbitrary violence and selfishness |
+
+Let the player choose, or suggest an alignment that fits their concept and class. For random generation, roll d10 (reroll 10): 1 LG, 2 NG, 3 CG, 4 LN, 5 N, 6 CN, 7 LE, 8 NE, 9 CE.
+
+## Step 5: Roll Attributes
 
 Use the **4d6 drop lowest** method for each of the 6 attributes:
 1. Roll 4d6 for each attribute
@@ -93,14 +113,14 @@ Show every roll: `🎲 Attribute roll: [d1, d2, d3, d4] → drop [lowest] → to
 
 If the player prefers, offer **standard array** instead: 15, 14, 13, 12, 10, 8
 
-## Step 5: Calculate Derived Stats
+## Step 6: Calculate Derived Stats
 
 - **HP**: Max hit die value + CON modifier
 - **AC**: Based on starting equipment (see class defaults)
 - **Initiative**: DEX modifier
 - **Proficiency Bonus**: +2 (level 1)
 
-## Step 6: Choose Skill Proficiencies
+## Step 7: Choose Skill Proficiencies
 
 Each class grants a number of skills chosen from a specific list. The player's background also grants 2 additional proficiencies. Refer to RULES.md for the full skill list and class skill options.
 
@@ -108,17 +128,17 @@ Grant **class skill proficiencies** — look up the class in `rules/classes.md` 
 
 Then ask for a **background** (Acolyte, Criminal, Folk Hero, Noble, Sage, Soldier, or custom) which grants 2 more skill proficiencies per the background description.
 
-## Step 7: Starting Equipment & Gold
+## Step 8: Starting Equipment & Gold
 
 Roll starting gold and assign equipment per the tables in `starting-equipment.md`.
 
-## Step 8: Spells (if spellcaster)
+## Step 9: Spells (if spellcaster)
 
 For casters at level 1, refer to the starting spells table in `starting-equipment.md` for cantrip/spell counts by class. Generate spell options appropriate to the character concept and let the player choose.
 
-## Step 9: Backstory
+## Step 10: Backstory
 
-Ask the player to provide a backstory, or offer to **generate one** using the following prompts:
+Ask the player to provide a backstory, or offer to **generate one** using the following prompts. The backstory should reflect the character's chosen alignment — their moral compass, attitude toward authority, and how they treat others.
 - Where did you grow up?
 - What drove you to adventure?
 - Who do you care about?
@@ -127,9 +147,9 @@ Ask the player to provide a backstory, or offer to **generate one** using the fo
 
 Weave answers into a 2–3 paragraph backstory.
 
-## Step 10: Save Character
+## Step 11: Save Character
 
-Create the character file at `characters/{name-slug}.json` following the format in `rules/state-formats.md`. Include all stats, inventory, spells, and backstory.
+Create the character file at `characters/{name-slug}.json` following the format in `rules/state-formats.md`. Include all stats, alignment, inventory, spells, and backstory.
 
 Present the completed character as an ASCII character sheet using the template below, then ask: *"Your hero is ready. Shall we begin the adventure?"*
 
@@ -144,6 +164,7 @@ Use horizontal rules (`═` for top/bottom, `─` for sections) with no side bor
   Name:  {name}
   Race:  {race}              Class: {class}
   Level: {level}             XP:    {xp} / {xp_next}
+  Alignment: {alignment}
 
   HP: {bar} {current}/{max}
   AC: {ac}    Initiative: {init}    Prof. Bonus: {prof}

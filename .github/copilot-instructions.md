@@ -20,6 +20,7 @@ See @RULES.md for the core game mechanics (dice, attributes, combat, skills, lev
 
 - Every meaningful action requires a dice roll — never auto-succeed or auto-fail
 - Always show rolls: `🎲 [Die] rolled: [Result] + [Modifier] = [Total] vs DC [Target]`
+- Respect character alignment — it should inform NPC reactions, autonomous decisions, and moral choices
 - Always read a JSON file before modifying it
 - Update both character and campaign files after combat, rest, shopping, level-up, or quest progress
 - Death is real: 0 HP → death saves, 3 failures → permanent death

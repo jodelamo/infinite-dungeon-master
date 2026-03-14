@@ -11,6 +11,7 @@
   "level": 1,
   "xp": 0,
   "xp_next": 300,
+  "alignment": "Neutral Good",
   "hp": { "current": 12, "max": 12 },
   "ac": 16,
   "attributes": {
@@ -47,12 +48,30 @@
   "world": {
     "locations": {},
     "factions": {},
-    "npcs": {},
+    "npcs": {
+      "NPC Name": {
+        "race": "...",
+        "class": "...",
+        "alignment": "...",
+        "location": "...",
+        "faction": "...",
+        "disposition": "..."
+      }
+    },
     "quests": { "active": [], "completed": [] }
   },
   "time": { "day": 1, "hour": 8, "weather": "clear" }
 }
 ```
+
+### Party Array
+
+The `"party"` field is an array of character filenames (e.g., `["kaelith.json", "seraphine.json"]`). Each entry references a file in the `characters/` directory. During play:
+
+- **Adding members**: Append the new character's filename when they join.
+- **Deaths**: Remove the dead character's filename from `"party"`, but **do not delete** their JSON file — it serves as a record.
+- **TPK (Total Party Kill)**: Replace the entire array with new character filenames.
+- All party members share the same `"current_location"` from the campaign file.
 
 ## Updating State
 

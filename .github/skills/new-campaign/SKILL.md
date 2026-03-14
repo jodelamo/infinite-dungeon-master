@@ -67,7 +67,7 @@ For each faction:
 - Name and symbol
 - Goals and methods
 - Attitude toward the player (friendly / neutral / hostile / unknown)
-- Key NPC leader (name, race, class, personality in one line)
+- Key NPC leader (name, race, class, alignment, personality in one line)
 
 ### Starting Quest Hook
 A compelling reason for an adventurer to be here right now. Include:

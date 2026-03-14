@@ -14,6 +14,21 @@
 | 9 | Gnome |
 | 10 | Half-Elf |
 
+## Alignment (d10, reroll 10)
+
+| d10 | Alignment |
+|-----|-----------|
+| 1 | Lawful Good |
+| 2 | Neutral Good |
+| 3 | Chaotic Good |
+| 4 | Lawful Neutral |
+| 5 | Neutral |
+| 6 | Chaotic Neutral |
+| 7 | Lawful Evil |
+| 8 | Neutral Evil |
+| 9 | Chaotic Evil |
+| 10 | Reroll |
+
 ## Disposition (d6)
 
 | d6 | Disposition |

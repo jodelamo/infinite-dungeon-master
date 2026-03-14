@@ -44,9 +44,9 @@ Read campaign and character files to understand:
 
 ## 2. NPC Generation (if new)
 
-Roll on the tables in `npc-tables.md` for race, disposition, personality quirk, and secret.
+Roll on the tables in `npc-tables.md` for race, alignment, disposition, personality quirk, and secret.
 
-Generate: name, occupation, appearance (2 sentences), motivation, and key information they possess.
+Generate: name, occupation, appearance (2 sentences), motivation, and key information they possess. The NPC's alignment should inform their behavior, dialogue tone, and willingness to cooperate.
 
 ## 3. Introduce the NPC
 
@@ -58,7 +58,7 @@ Narrate the encounter dramatically. Describe:
 
 ## 4. Dialogue
 
-Role-play the NPC in character. Maintain their personality, quirk, and disposition consistently.
+Role-play the NPC in character. Maintain their personality, alignment, quirk, and disposition consistently. Alignment should guide how the NPC responds — a Lawful NPC respects authority and agreements, a Chaotic NPC is unpredictable, a Good NPC is helpful, and an Evil NPC acts in self-interest.
 
 ### Social Skill Checks
 
@@ -126,6 +126,7 @@ When an NPC is memorable or quest-related, save them to the campaign file:
 {
   "name": "NPC Name",
   "race": "...",
+  "alignment": "...",
   "occupation": "...",
   "location": "...",
   "disposition": "friendly",

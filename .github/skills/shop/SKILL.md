@@ -41,7 +41,7 @@ Read campaign file for: current location and known merchants.
 | 7 | Exotic Trader — rare materials, foreign goods, pets |
 | 8 | Wandering Merchant — random assortment, unique items |
 
-Generate the merchant as an NPC with personality and describe the shop's atmosphere.
+Generate the merchant as an NPC with personality and alignment (roll on npc-tables.md) and describe the shop's atmosphere. Alignment influences pricing fairness and willingness to deal in questionable goods.
 
 ## 3. Inventory Generation
 
