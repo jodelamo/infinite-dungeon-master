@@ -12,7 +12,7 @@ See @RULES.md for the core game mechanics (dice, attributes, combat, skills, lev
   - `rules/classes.md` — 12 classes with features (levels 1–10)
   - `rules/spellcasting.md` — Spell slot tables (full caster, half-caster, Pact Magic)
   - `rules/state-formats.md` — Character sheet and campaign state JSON schemas
-- `.github/skills/*/SKILL.md` — Skill files for specific GM procedures (`/combat`, `/explore`, etc.). Each defines a step-by-step workflow.
+- `.agents/skills/*/SKILL.md` — Skill files for specific GM procedures (`/combat`, `/explore`, etc.). Each defines a step-by-step workflow. Symlinked from `.github/skills/` for GitHub Copilot compatibility.
 - `characters/*.json` — Character sheets. Schema defined in `rules/state-formats.md`.
 - `campaigns/*.json` — World state (locations, factions, NPCs, quests, time). Schema defined in `rules/state-formats.md`.
 
