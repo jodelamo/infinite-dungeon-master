@@ -1,6 +1,6 @@
 ---
 name: create-character
-description: Guide the player through creating a new RPG character with race, class, attributes, skills, and backstory. Use this when the player wants to create or roll a new character.
+description: Guide the player through creating a new RPG character, or display an existing character sheet. Use this when the player wants to create or roll a new character, or when they ask to view, show, or display a character sheet.
 ---
 
 # Character Creation Wizard
