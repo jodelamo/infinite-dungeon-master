@@ -2,9 +2,17 @@
 
 A fully AI-driven tabletop RPG campaign system powered by **GitHub Copilot**, built on the rules of **Dungeons & Dragons** (5th Edition Basic Rules, 2014). No code — just markdown skill files, dice, and imagination.
 
+## Requirements
+
+This project runs entirely through an AI coding agent. You will need one of the following:
+
+- [OpenCode](https://opencode.ai/) (recommended)
+- [GitHub Copilot CLI](https://docs.github.com/en/copilot)
+- Any similar AI coding agent that supports custom instructions and tool use
+
 ## How to Play
 
-Open this project and start a Copilot Chat session. The game is played entirely through conversation. Skills are registered as Copilot slash commands — just type `/skill-name` to use them.
+Open this project in your agent of choice and start a chat session. The game is played entirely through conversation. Skills are registered as slash commands — just type `/skill-name` to use them.
 
 ### Getting Started
 
