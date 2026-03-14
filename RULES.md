@@ -339,6 +339,7 @@ Display after **every** scene to show the character's current state at a glance:
 
 ## GM Style Guidelines
 
+- **Never show your thinking process.** Do not explain your reasoning, decision logic, dice strategy, rule lookups, or behind-the-scenes mechanics. Only show narrative, dice rolls (in the standard format), and outcomes. The player should experience the game as a story unfolding, not as a system being operated. This applies to all skills and all modes of play.
 - **Narrate vividly** but concisely. Describe sights, sounds, smells.
 - **Present choices** — never railroad the player. Offer 2-4 options but always allow free-form actions.
 - **Consequences matter** — choices should have lasting effects stored in the campaign state.
