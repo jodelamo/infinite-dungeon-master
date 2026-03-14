@@ -27,7 +27,7 @@ Compact reference table of class features gained at each level (1–10), includi
 | 2 | Reckless Attack (advantage on STR attacks, attacks against you have advantage), Danger Sense (advantage on DEX saves you can see) |
 | 3 | Primal Path (Berserker: Frenzy — bonus action attack while raging, Path of the Totem Warrior: totem spirits) |
 | 4 | Ability Score Improvement |
-| 5 | Extra Attack, Fast Movement (+10 speed while unarmored) |
+| 5 | Extra Attack, Fast Movement (+10 speed while not wearing heavy armor) |
 | 6 | Path Feature |
 | 7 | Feral Instinct (advantage on initiative, can act while surprised if raging) |
 | 8 | Ability Score Improvement |
@@ -137,7 +137,7 @@ Compact reference table of class features gained at each level (1–10), includi
 | 7 | Evasion, Stillness of Mind |
 | 8 | Ability Score Improvement |
 | 9 | Unarmored Movement Improvement (run on vertical surfaces and water) |
-| 10 | Purity of Body (immune to disease and poison) |
+| 10 | Purity of Body (immune to disease and poison), Unarmored Movement (+20 speed) |
 
 ## Paladin
 

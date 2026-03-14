@@ -52,7 +52,7 @@ If they want random generation, roll on improvised tables.
 
 Present the available races from `rules/races.md` with their bonuses and traits:
 - Dwarf (+2 CON, darkvision, poison resistance — subrace: Hill or Mountain)
-- Elf (+2 DEX, darkvision, Fey Ancestry, Keen Senses — subrace: High or Wood)
+- Elf (+2 DEX, darkvision, Fey Ancestry, Keen Senses — subrace: High, Wood, or Drow)
 - Halfling (+2 DEX, Lucky, Brave, Nimbleness — subrace: Lightfoot or Stout)
 - Human (+1 all attributes, extra language)
 - Dragonborn (+2 STR, +1 CHA, breath weapon — choose draconic ancestry)

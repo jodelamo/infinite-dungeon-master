@@ -112,7 +112,7 @@ Refer to `spells.md` for the full spell compendium (cantrips through 3rd level).
 
 ## 7. Wild Magic (Sorcerer — Optional)
 
-When a Wild Magic Sorcerer rolls a natural 1 on a spell attack or a natural 20, roll on the surge table in `wild-magic.md`.
+When a Wild Magic Sorcerer casts a sorcerer spell of 1st level or higher, roll a d20. On a 1, a Wild Magic Surge occurs — roll on the surge table in `wild-magic.md`.
 
 ## 8. Update State
 

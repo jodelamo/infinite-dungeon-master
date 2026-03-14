@@ -116,11 +116,11 @@ Full class details including hit die, armor/weapon proficiencies, skill options,
   - Lv3: Monastic Tradition, Deflect Missiles (reduce ranged weapon damage by 1d10 + DEX mod + monk level; if reduced to 0, can catch and throw back for 1 ki point)
   - Lv4: Ability Score Improvement, Slow Fall (reduce falling damage by 5 x monk level)
   - Lv5: Extra Attack, Stunning Strike (when you hit with a melee weapon attack, spend 1 ki; target must succeed on CON save or be stunned until end of your next turn)
-  - Lv6: Ki-Empowered Strikes (unarmed strikes count as magical), Monastic Tradition feature
+  - Lv6: Ki-Empowered Strikes (unarmed strikes count as magical), Monastic Tradition feature, Unarmored Movement (+15 ft)
   - Lv7: Evasion (DEX save for half damage: take 0 on success, half on failure), Stillness of Mind (end one charmed or frightened effect on yourself as an action)
   - Lv8: Ability Score Improvement
   - Lv9: Unarmored Movement improvement (move along vertical surfaces and across liquids without falling)
-  - Lv10: Purity of Body (immune to disease and poison)
+  - Lv10: Purity of Body (immune to disease and poison), Unarmored Movement (+20 ft)
 - **Martial Arts Die**: d4 (lv1-4), d6 (lv5-10), d8 (lv11-16), d10 (lv17+)
 
 ## Paladin

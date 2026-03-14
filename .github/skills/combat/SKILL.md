@@ -130,7 +130,7 @@ When a character drops to 0 HP:
 3. **3 successes**: Stabilized (unconscious but alive)
 4. **3 failures**: **DEATH** — narrate solemnly
 
-Any damage while at 0 HP = automatic death save failure. Massive damage (remaining damage ≥ max HP) = instant death.
+Any damage while at 0 HP = automatic death save failure. A critical hit against a creature at 0 HP counts as 2 death save failures. Massive damage (remaining damage ≥ max HP) = instant death.
 
 ## 7. End of Combat
 

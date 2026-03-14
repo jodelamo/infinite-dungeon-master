@@ -1,6 +1,6 @@
 # Wild Magic Surge Table
 
-When a Sorcerer with the Wild Magic origin rolls a natural 1 on a spell attack or a natural 20, roll d100:
+When a Wild Magic Sorcerer casts a sorcerer spell of 1st level or higher, the DM rolls a d20. On a 1, a Wild Magic Surge occurs — roll d100:
 
 | d100 | Effect |
 |------|--------|

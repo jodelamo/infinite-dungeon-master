@@ -30,9 +30,9 @@ Common spells organized by level. Generate additional spells as needed, followin
 | Charm Person | Bard/Wizard/Sorcerer/Warlock/Druid | 1st | WIS save or charmed for 1 hour |
 | Detect Magic | All casters | 1st (conc/ritual) | Sense magic within 30ft |
 | Sleep | Wizard/Sorcerer/Bard | 1st | 5d8 HP of creatures fall unconscious |
-| Entangle | Druid/Ranger | 1st (conc) | STR save or restrained in vines |
+| Entangle | Druid | 1st (conc) | STR save or restrained in vines |
 | Hex | Warlock | 1st (conc/bonus) | +1d6 necrotic per hit, target has disadvantage on one ability |
-| Smite (Divine) | Paladin | 1st+ | +2d8 radiant on melee hit (+1d8 per slot above 1st, +1d8 vs undead) |
+| Divine Smite *(class feature)* | Paladin | 1st+ | +2d8 radiant on melee hit (+1d8 per slot above 1st, +1d8 vs undead) |
 
 ## 2nd Level
 

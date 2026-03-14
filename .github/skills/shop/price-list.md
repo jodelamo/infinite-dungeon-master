@@ -28,8 +28,8 @@
 | Light Crossbow | 25 GP | 1d8 piercing, range 80/320 |
 | Leather Armor | 10 GP | AC 11 + DEX |
 | Chain Shirt | 50 GP | AC 13 + DEX (max 2) |
-| Chain Mail | 75 GP | AC 16, STR 13 required |
-| Plate Armor | 1,500 GP | AC 18, STR 15 required |
+| Chain Mail | 75 GP | AC 16, STR 13 required, Stealth disadvantage |
+| Plate Armor | 1,500 GP | AC 18, STR 15 required, Stealth disadvantage |
 | Shield | 10 GP | +2 AC |
 
 ## Apothecary

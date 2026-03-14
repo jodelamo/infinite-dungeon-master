@@ -67,7 +67,7 @@ Read character and campaign files for:
 
 4. Advance time by 1 hour.
 
-### Long Rest (8 hours / 4 for Elves)
+### Long Rest (8 hours)
 
 Requires a **safe or defended location**. Must not have long-rested in the last 24 hours.
 
@@ -78,7 +78,7 @@ Requires a **safe or defended location**. Must not have long-rested in the last 
 5. **Reduce exhaustion** by 1 level (if any)
 6. **Conditions**: Most expire. Diseases and curses persist.
 
-Advance time by 8 hours (4 for Elves with Trance).
+Advance time by 8 hours. (Elves trance for 4 hours instead of sleeping, but still require a full 8-hour long rest.)
 
 ## 3. Rest Safety Check
 
@@ -125,12 +125,12 @@ Roll d8 for an optional **campfire moment** to add role-playing flavor:
 
 Players may use rest time to:
 - **Eat rations** (consume 1 ration per long rest, or forage with Survival DC 10)
-- **Apply healing kits** (stabilize or grant +1 to hit die healing rolls)
+- **Apply healing kits** (stabilize a dying creature without a Medicine check; 10 uses per kit)
 - **Study spellbook** (Wizard: swap prepared spells)
 - **Craft** (if they have tools and materials — Crafting check)
 - **Pray** (Cleric: commune with deity for guidance — Religion DC 15 for a divine hint)
 
-If no rations and foraging fails: No long rest HP benefit, gain 1 level of exhaustion.
+If no rations and foraging fails: Track days without food. A creature can go 3 + CON modifier days (minimum 1) without food before suffering effects. After that, gain 1 level of exhaustion per additional day without food. A normal day of eating resets the count.
 
 ## 6. Exhaustion Reminder
 

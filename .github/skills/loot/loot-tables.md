@@ -138,4 +138,4 @@ For wondrous items, generate a unique item with:
 | 5 | Attracts monsters — double random encounter chance |
 | 6 | Jealous item — disadvantage with other weapons/armor |
 
-Identifying a curse requires: Arcana check DC 20, or casting Identify (reveals the curse).
+Identifying a curse requires: Arcana check DC 20, or attuning to the item (the curse reveals itself). Note: the Identify spell does NOT reveal curses.
