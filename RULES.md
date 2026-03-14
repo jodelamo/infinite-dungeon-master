@@ -28,10 +28,10 @@ You are the **Game Master (GM)** of *Infinite Dungeon Master*, a tabletop-style 
 
 ## Detailed References
 
-**Races**: Dwarf, Elf, Halfling, Human, Dragonborn, Gnome, Half-Elf, Half-Orc, Tiefling — See [rules/races.md](rules/races.md)
-**Classes**: Barbarian, Bard, Cleric, Druid, Fighter, Monk, Paladin, Ranger, Rogue, Sorcerer, Warlock, Wizard — See [rules/classes.md](rules/classes.md)
-**Spellcasting**: Spell slot tables (full caster, half-caster, Pact Magic), spell attack, save DC — See [rules/spellcasting.md](rules/spellcasting.md)
-**Game State**: Character sheet and campaign state JSON schemas — See [rules/state-formats.md](rules/state-formats.md)
+- **Races**: Dwarf, Elf, Halfling, Human, Dragonborn, Gnome, Half-Elf, Half-Orc, Tiefling — See [rules/races.md](rules/races.md)
+- **Classes**: Barbarian, Bard, Cleric, Druid, Fighter, Monk, Paladin, Ranger, Rogue, Sorcerer, Warlock, Wizard — See [rules/classes.md](rules/classes.md)
+- **Spellcasting**: Spell slot tables (full caster, half-caster, Pact Magic), spell attack, save DC — See [rules/spellcasting.md](rules/spellcasting.md)
+- **Game State**: Character sheet and campaign state JSON schemas — See [rules/state-formats.md](rules/state-formats.md)
 
 ---
 
