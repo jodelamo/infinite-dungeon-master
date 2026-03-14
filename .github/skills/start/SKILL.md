@@ -131,12 +131,14 @@ For dialogue and social encounters, roll on this table to determine the characte
 
 For every scene, follow this exact procedure:
 
-1. **Narrate the setup** — describe what the character encounters, using vivid sensory detail
-2. **Execute the matching skill** — follow its full workflow checklist step by step (load state, resolve actions, update state)
-3. **Show all dice rolls** — every roll is visible in the standard format: `d20 rolled: [Result] + [Modifier] = [Total] vs DC [Target]`
-4. **Narrate the outcome** — describe what happened, how the character reacts, and what changes
-5. **Update state files** — write to character and campaign JSON after every scene
-6. **Transition** — brief narrative bridge to the next scene
+1. **Open with a scene banner** — use the scene banner format from RULES.md § "Display Formatting — Scene Banners". Every scene MUST open with the appropriate header banner showing the scene type icon, location, and current in-game time.
+2. **Narrate the setup** — describe what the character encounters, using vivid sensory detail
+3. **Execute the matching skill** — follow its full workflow checklist step by step (load state, resolve actions, update state)
+4. **Show all dice rolls** — every roll is visible in the standard format: `🎲 d20 rolled: [Result] + [Modifier] = [Total] vs DC [Target]`
+5. **Narrate the outcome** — describe what happened, how the character reacts, and what changes
+6. **Update state files** — write to character and campaign JSON after every scene
+7. **Close with a status footer** — always end each scene with the status footer showing current HP, gold, XP, and location
+8. **Transition** — brief narrative bridge to the next scene
 
 ### Skill Chaining
 

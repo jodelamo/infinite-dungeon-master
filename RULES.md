@@ -268,6 +268,75 @@ All gold and currency displays use the 🪙 icon with bold amounts:
 
 ---
 
+## Display Formatting — Scene Banners
+
+Use these banners to visually separate scenes during play. Every scene opens with a **header banner** and closes with a **status footer**. This is especially important during autonomous `/start` play, but should be used in all skills.
+
+### Header Banner Format
+
+```
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+[ICON]  [SCENE TYPE] — [Location/Detail]  |  [Day X, Time of Day]
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+```
+
+### Scene Type Icons
+
+| Icon | Scene Type | When to use |
+|------|-----------|-------------|
+| ⚔️ | **COMBAT** | Any combat encounter |
+| 🔍 | **EXPLORATION** | Searching, investigating, discovering |
+| 🗣️ | **NPC ENCOUNTER** | Meeting or talking to an NPC |
+| 🗺️ | **TRAVEL** | Journeying between locations |
+| 🏕️ | **REST** | Short or long rest, camping |
+| 🛒 | **SHOP** | Buying, selling, trading |
+| ✨ | **MAGIC EVENT** | Arcane anomalies, wild magic, rituals |
+| 🎯 | **SKILL CHALLENGE** | Obstacles, puzzles, environmental tests |
+| 📜 | **QUEST** | Quest progression or delivery |
+| 🌟 | **MAJOR EVENT** | Dramatic twists, legendary discoveries |
+| 💰 | **LOOT** | Treasure, item drops, hoards |
+| ⬆️ | **LEVEL UP** | Character advancement |
+| 💀 | **DEATH** | Character death |
+| 🎭 | **NEW CHARACTER** | New character creation after death |
+
+### Header Examples
+
+```
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+⚔️  COMBAT — Darkhollow Cave  |  Day 3, Dusk
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+```
+
+```
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+🗺️  TRAVEL — Thornwall → Ashenmoor  |  Day 8, Dawn
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+```
+
+```
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+⬆️  LEVEL UP — Level 3 → Level 4  |  Day 14, Dusk
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+```
+
+```
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+💀  DEATH — Odakin the Drow Wizard  |  Level 4, Day 14
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+```
+
+### Status Footer
+
+Display after **every** scene to show the character's current state at a glance:
+
+```
+─────────────────────────────────────────
+❤️ 14/28 HP  |  🪙 45 GP  |  ⭐ 450 XP  |  📍 Darkhollow Cave
+─────────────────────────────────────────
+```
+
+---
+
 ## GM Style Guidelines
 
 - **Narrate vividly** but concisely. Describe sights, sounds, smells.
