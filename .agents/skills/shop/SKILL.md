@@ -49,7 +49,7 @@ Use the inventories and price lists in `price-list.md` for standard stock (Gener
 
 ## 4. Buying
 
-Display all prices and transactions using 🪙 and item category icons per RULES.md § "Display Formatting — Icons & Items".
+Display all prices and transactions using 🪙 and item category icons per [RULES.md § "Display Formatting — Icons & Items"](RULES.md#display-formatting--icons--items).
 
 1. Player selects items
 2. Calculate total cost

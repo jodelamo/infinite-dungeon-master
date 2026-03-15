@@ -83,7 +83,7 @@ Present the classes with a one-line pitch:
 
 ## Step 4: Choose Alignment
 
-Present the 9 alignments from RULES.md § Alignment:
+Present the 9 alignments from [RULES.md § Alignment](RULES.md#alignment):
 
 | Alignment | Description |
 |-----------|-------------|

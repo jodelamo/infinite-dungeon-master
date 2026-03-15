@@ -18,10 +18,10 @@ See @RULES.md for the core game mechanics (dice, attributes, combat, skills, lev
 
 ## Display Formatting
 
-Before rendering any game output (character sheets, inventory, loot, shop transactions, scene banners, status footers), always consult `RULES.md` § "Display Formatting" for the required icon and formatting conventions.
+Before rendering any game output (character sheets, inventory, loot, shop transactions, scene banners, status footers), always consult [`RULES.md` § "Display Formatting"](RULES.md#display-formatting--icons--items) for the required icon and formatting conventions.
 
 Key rules:
-- All items must be prefixed with their category icon (see `RULES.md` § "Item Icons by Category")
+- All items must be prefixed with their category icon (see [`RULES.md` § "Item Icons by Category"](RULES.md#item-icons-by-category))
 - Gold uses the 🪙 icon with bold amounts
 - Magical items are prefixed with ✨ before their category icon
 - Scene banners and status footers have specific formats defined in `RULES.md`

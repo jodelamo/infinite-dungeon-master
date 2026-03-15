@@ -60,7 +60,7 @@ For each enemy, create:
 - 1–2 special abilities appropriate to the creature type
 - XP reward based on CR
 
-Present enemies using the display formats from `RULES.md` § "Display Formatting — Monster Cards":
+Present enemies using the display formats from [`RULES.md` § "Display Formatting — Monster Cards"](RULES.md#display-formatting--monster-cards):
 - **1 enemy**: Show a **monster card** with stats and a short description
 - **2+ enemies**: Show a **monster roster** with compact per-enemy stats
 - **Boss + minions**: Monster card for the boss, then a roster for the minions
@@ -100,7 +100,7 @@ On each party member's turn, present the tactical situation and choose their act
 1. `🎲 d20 + ATK modifier` vs target's AC
 2. **Hit**: Roll damage die + modifier. Describe the hit vividly.
 3. **Miss**: Describe the near-miss.
-4. **Natural 20**: CRITICAL HIT — use the `★ NATURAL 20 ★` format (see `RULES.md` § "Display Formatting — Critical Hits & Misses"). Double all damage dice, describe epicly.
+4. **Natural 20**: CRITICAL HIT — use the `★ NATURAL 20 ★` format (see [`RULES.md` § "Display Formatting — Critical Hits & Misses"](RULES.md#display-formatting--critical-hits--misses)). Double all damage dice, describe epicly.
 5. **Natural 1**: Critical miss — use the `✖ NATURAL 1 ✖` format. Describe the fumble (no extra penalty, just flavor).
 
 ### Enemy Turns
@@ -145,7 +145,7 @@ When all enemies are defeated or combat ends:
 4. **Narrative**: Describe the aftermath — the silence after battle, the scene
 
 ### Quick Loot (d6 per enemy)
-Use item icons per RULES.md § "Display Formatting — Icons & Items":
+Use item icons per [RULES.md § "Display Formatting — Icons & Items"](RULES.md#display-formatting--icons--items):
 | d6  | Drop |
 |-----|------|
 | 1–2 | Nothing |

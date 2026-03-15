@@ -36,7 +36,7 @@ If the route is known, use the campaign data. If new, roll on the distance, terr
 
 ## 3. Travel Narration
 
-Open the scene with a **header banner** (see `RULES.md` § "Display Formatting — Scene Banners") using the 🗺️ TRAVEL scene type, showing origin, destination, and the current day/time.
+Open the scene with a **header banner** (see [`RULES.md` § "Display Formatting — Scene Banners"](RULES.md#display-formatting--scene-banners)) using the 🗺️ TRAVEL scene type, showing origin, destination, and the current day/time.
 
 Describe the journey in atmospheric prose:
 - The terrain and scenery changing
@@ -75,7 +75,7 @@ In unfamiliar territory without a road:
 ## 6. Arrival
 
 When the party arrives at the destination:
-1. Display a **location card** (see `RULES.md` § "Display Formatting — Location Cards") with the location name, type, region, danger level, weather, time, and a short description
+1. Display a **location card** (see [`RULES.md` § "Display Formatting — Location Cards"](RULES.md#display-formatting--location-cards)) with the location name, type, region, danger level, weather, time, and a short description
 2. Note the time of arrival and current weather
 3. Present immediate options (enter the town, scout the area, make camp)
 4. Update the campaign file with the new location
@@ -96,4 +96,4 @@ After travel:
 - Record any encounters and their outcomes
 - Award XP for travel encounters and discoveries
 - Update HP if any damage occurred during travel
-- Close the scene with a **status footer** (see `RULES.md` § "Display Formatting — Scene Banners")
+- Close the scene with a **status footer** (see [`RULES.md` § "Display Formatting — Scene Banners"](RULES.md#display-formatting--scene-banners))

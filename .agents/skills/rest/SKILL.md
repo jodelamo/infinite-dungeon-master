@@ -44,7 +44,7 @@ Read character and campaign files for:
 
 ## 2. Rest Type
 
-Open the scene with a **header banner** (see `RULES.md` § "Display Formatting — Scene Banners") using the 🏕️ REST scene type, showing the rest type and current location.
+Open the scene with a **header banner** (see [`RULES.md` § "Display Formatting — Scene Banners"](RULES.md#display-formatting--scene-banners)) using the 🏕️ REST scene type, showing the rest type and current location.
 
 ### Short Rest (1 hour)
 
@@ -140,7 +140,7 @@ Exhaustion has 6 levels (disadvantage on checks → speed halved → disadvantag
 
 ## 7. Update State
 
-Display a **rest summary** (see `RULES.md` § "Display Formatting — Rest Summary") showing HP recovery, hit dice changes, spell slot restoration, and ration consumption before updating state files.
+Display a **rest summary** (see [`RULES.md` § "Display Formatting — Rest Summary"](RULES.md#display-formatting--rest-summary)) showing HP recovery, hit dice changes, spell slot restoration, and ration consumption before updating state files.
 
 After rest:
 - Update character HP, hit dice, spell slots, conditions
@@ -148,4 +148,4 @@ After rest:
 - Record any encounters or events in the session log
 - Update ration count if applicable
 - Check for quest deadline impacts due to time passing
-- Close the scene with a **status footer** (see `RULES.md` § "Display Formatting — Scene Banners")
+- Close the scene with a **status footer** (see [`RULES.md` § "Display Formatting — Scene Banners"](RULES.md#display-formatting--scene-banners))

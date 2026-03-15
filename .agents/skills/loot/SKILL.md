@@ -48,7 +48,7 @@ For quest rewards or major discoveries, generate a **named item** with:
 Describe the loot narratively:
 *"Amid the fallen goblin's possessions, you find a leather pouch containing 14 gold pieces, and — glinting beneath a tattered cloak — a dagger with runes etched along the blade that pulse with faint blue light..."*
 
-Then list mechanically using the item icons from RULES.md § "Display Formatting — Icons & Items":
+Then list mechanically using the item icons from [RULES.md § "Display Formatting — Icons & Items"](RULES.md#display-formatting--icons--items):
 ```
 📦 Loot Found:
   🪙 **14 GP**
@@ -57,6 +57,6 @@ Then list mechanically using the item icons from RULES.md § "Display Formatting
 
 ## 5. Update State
 
-- Add items and gold to character inventory (display with category icons per RULES.md § "Display Formatting")
+- Add items and gold to character inventory (display with category icons per [RULES.md § "Display Formatting"](RULES.md#display-formatting--icons--items))
 - If item is plot-relevant, note it in campaign file
 - Prompt player: keep, equip, or stash?

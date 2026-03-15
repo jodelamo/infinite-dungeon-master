@@ -50,7 +50,7 @@ Generate: name, occupation, appearance (2 sentences), motivation, and key inform
 
 ## 3. Introduce the NPC
 
-Display the **NPC card** (see `RULES.md` § "Display Formatting — NPC Cards") with the NPC's name, race, alignment, occupation, disposition, location, and a two-sentence appearance description. Use the disposition icon from the table (🔴 Hostile, 🟡 Suspicious, ⚪ Neutral, 🟢 Friendly, 💛 Grateful, 🟣 Mysterious).
+Display the **NPC card** (see [`RULES.md` § "Display Formatting — NPC Cards"](RULES.md#display-formatting--npc-cards)) with the NPC's name, race, alignment, occupation, disposition, location, and a two-sentence appearance description. Use the disposition icon from the table (🔴 Hostile, 🟡 Suspicious, ⚪ Neutral, 🟢 Friendly, 💛 Grateful, 🟣 Mysterious).
 
 Then narrate the encounter dramatically. Describe:
 - How the NPC appears or approaches

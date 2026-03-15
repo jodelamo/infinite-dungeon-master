@@ -139,7 +139,7 @@ For dialogue and social encounters, roll on this table to determine the **lead c
 
 For every scene, follow this exact procedure:
 
-1. **Open with a scene banner** — use the scene banner format from RULES.md § "Display Formatting — Scene Banners". Every scene MUST open with the appropriate header banner showing the scene type icon, location, and current in-game time.
+1. **Open with a scene banner** — use the scene banner format from [RULES.md § "Display Formatting — Scene Banners"](RULES.md#display-formatting--scene-banners). Every scene MUST open with the appropriate header banner showing the scene type icon, location, and current in-game time.
 2. **Narrate the setup** — describe what the party encounters, using vivid sensory detail. Show how different party members react to the scene based on their personalities.
 3. **Execute the matching skill** — follow its full workflow checklist step by step (load state, resolve actions, update state). In combat, every party member rolls initiative and acts on their own turn. In social scenes, choose a lead character (see "Who Speaks for the Party?" above).
 4. **Show all dice rolls** — every roll is visible in the standard format: `🎲 [Die] rolled: [Result] + [Modifier] = [Total] vs DC [Target]`
